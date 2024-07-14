@@ -1,0 +1,58 @@
+.popular{
+    display: flex;
+    flex-direction: column;
+    /* text-align: left; */
+    margin-top: 64px;
+
+}
+.popular__box{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    white-space: nowrap;
+    flex-direction: row;
+
+}
+
+.popular h3{
+    font-size: 28px;
+}
+.popular p{
+    text-align: left;
+    font-weight: 600;
+    padding-top: 24px;
+
+}
+.popilar_item img{
+    width: 100%;
+}
+.popilar_item p{
+    justify-content: center;
+    text-align: center;
+  
+}
+.popular__title p {
+    margin-top: 16px;
+   margin-bottom: 28px;
+
+}
+
+
+
+@media (max-width: 1400px) {
+}
+@media (max-width: 1200px) {
+}
+ @media (max-width: 992px) {
+    .popular__box{
+        flex-wrap: wrap;
+    }
+    .popilar_item{
+        width: 153px;
+    }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+  
+}

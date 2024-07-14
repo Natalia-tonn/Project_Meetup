@@ -1,0 +1,245 @@
+/* 
+
+.join__box{
+    background-color: rgba(151, 202, 209, 0.08)
+}
+
+.join__box{
+    width: 100%;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.join__box_left{
+    padding: 56px;
+    flex: 1;
+}
+.join__box_left h2{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 24px;
+
+}
+.join__box_right{
+    flex: 1;
+}
+.join__box_Btn {
+    height: 40px;
+    width: 192px;
+    margin-top: 16px;
+    margin-bottom: 36px;
+    background-color: #E32359;
+	color: var(--color-white);
+	font-size: 16px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: var(--border-radius);
+	text-decoration: none;
+	cursor: pointer;
+	white-space: nowrap;
+}
+.join__box_Btn:hover{
+    background-color: #e36085;
+}
+
+.secondBtn{
+    display: none;
+}
+
+
+
+
+@media (max-width: 1400px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+    .join__box{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 50px;
+        row-gap: 24px;
+        text-align: center;
+    }
+
+    .join__box h2{
+        text-align: center;
+    }
+    .firstBtn{
+        display: none;
+    }
+    .secondBtn{
+        display: block;
+        display: block;
+        margin: 0 auto;
+        margin-top: 22px;
+        margin-bottom: 32px;
+    }
+    .join__box h2{
+
+       text-align: left;
+    }
+    /* .join__box_Btn{
+        display: none;
+    } */
+/* } */
+/* @media (max-width: 768px) {
+    .join__box_left{
+        max-width: 750px;
+
+    }
+    .join__box h2{
+        text-align: center;
+        font-size: 34px;
+    }
+    .firstBtn{
+        display: none;
+    }
+    .secondBtn{
+        display: block;
+        display: block;
+        margin: 0 auto;
+        margin-top: 22px;
+        margin-bottom: 32px;
+    }
+    .join__box h2{
+        font-size: 20px;
+       text-align: left;
+    }
+}
+@media (max-width: 576px) {
+    .join__box{
+        text-align: center;
+        margin-top: 15px;
+
+    }
+    .join__box p{
+        font-size: 14px;
+    }
+    .join__box h2{
+        font-size: 20px;
+       text-align: left;
+    }
+    .join__box_left{
+        max-width: 400px;
+        padding: 15px;
+    
+       
+    }
+    .join__box_Btn__first{
+        display: none;
+    }
+ 
+
+    .join__box_Btn {
+        order: 3;
+        align-self: flex-start;
+        margin-top: 20px;
+    }
+    .firstBtn{
+        display: none;
+    }
+    .secondBtn{
+        display: block;
+        display: block;
+        margin: 0 auto;
+        margin-top: 22px;
+        margin-bottom: 32px;
+    } */ */
+
+
+   
+    /* .join__box_right img{
+        width: 80%;
+    }  */
+/* }  */
+/* -------------------- */
+
+.join__box {
+    background-color: rgba(151, 202, 209, 0.08);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--border-radius);
+}
+.join__box_left{
+
+  padding-left: 56px;
+  padding-top: 36px;
+  width: 60%;
+
+}
+.join__box_right{
+    flex: 1;
+}
+
+.join__box h2{
+    font-size: 28px;
+   text-align: left;
+   font-weight: bolder;
+   padding-bottom: 16px;
+
+}
+.join__box p{
+    padding-right: 24px;
+    padding-bottom: 16px;
+}
+
+.join__box_Btn {
+background-color: #E32359;
+width: 192px;
+height: 40px;
+margin-bottom: 36px;
+}
+.join__box_Btn:hover{
+    background-color: #e36085;
+}
+.join__box_right{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media (max-width: 1400px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+    .join__box_right img{
+        width: 90%;
+    }
+}
+@media (max-width: 576px) {
+  .join__box {
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-bottom: 30px;
+     padding: 0;
+    margin-left: 0;
+  }
+  .join__box_left p {
+    padding: 0;
+    text-align: left;
+  }
+  .join__box_left{
+    padding: 20px;
+    margin: 0;
+    align-items: center;
+    width: 100%;
+  }
+  .join__box_Btn{
+    margin-top: 22px;
+  }
+.join__box_right img{
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+
+
+} 
