@@ -11,8 +11,11 @@ margin-top: 24px;
 gap: 16px;
 font-weight: 500;
 
-
 }
+.categiries__box p{
+margin-top: 6px;
+}
+
 .categiries h2{ 
 font-size: 28px;
 }

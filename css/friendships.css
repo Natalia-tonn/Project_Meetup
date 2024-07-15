@@ -1,0 +1,77 @@
+.friendships{
+    margin-top: 64px;
+}
+.friend__box{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 24px;
+}
+.friend__title h3{ 
+margin-bottom: 16px;
+}
+.friend__title p{
+    width: 75%;
+    margin-bottom: 28px;
+
+}
+.friend__item__info h4{
+    line-height: 23px;
+    padding-top: 24px;
+    padding-bottom: 12px;
+    cursor: pointer;
+}
+.friend__item__info p{
+    line-height: 23px;
+    padding-bottom: 16px;
+    color: var(--color-darkgrey);
+}
+.friend__item__info a{
+    color: var(--color-btn-blue);
+}
+.friend__box__item{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.friend__box img{
+    width: 100%;
+    height: 191px;
+}
+
+
+
+
+
+
+
+@media (max-width: 1400px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+    .friend__box{
+        flex-wrap: wrap;
+    }
+    .hidden__p{
+        display: none;
+    }
+    .friend__title h3{
+        font-size: 24px;
+    }
+
+}
+@media (max-width: 768px) {
+   .friend__box__item{
+    width: 70%;
+    max-width: 450px;
+   } 
+}
+@media (max-width: 576px) {
+  .friend__box__item{
+    font-size: 14px;
+    max-width: 100%;
+  }
+}

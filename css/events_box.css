@@ -34,10 +34,11 @@
   .events__box__item img {
     max-width: 100%;
     border-radius: 8px;
+  }
+  .events__box__item img:hover{
+    transform: scale(1.15);
+  }
  
-  }
-  .liGap {
-  }
   @media (max-width: 1400px) {
   }
   @media (max-width: 1200px) {

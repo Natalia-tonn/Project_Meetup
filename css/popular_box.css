@@ -1,7 +1,7 @@
 .popular{
     display: flex;
     flex-direction: column;
-    /* text-align: left; */
+    text-align: left;
     margin-top: 64px;
 
 }
@@ -13,9 +13,8 @@
     flex-direction: row;
 
 }
-
 .popular h3{
-    font-size: 28px;
+font-size: 28px;
 }
 .popular p{
     text-align: left;
@@ -26,16 +25,22 @@
 .popilar_item img{
     width: 100%;
 }
+.popilar_item img:hover{
+    transform: scale(1.15);
+}
+
 .popilar_item p{
-    justify-content: center;
-    text-align: center;
-  
+
+text-align: center;
 }
 .popular__title p {
     margin-top: 16px;
    margin-bottom: 28px;
 
 }
+
+
+
 
 
 
