@@ -209,10 +209,13 @@ text-decoration: none;
 cursor: pointer;
 white-space: nowrap;
 color: var(--color-white);
+transition: transform 0.3s ease; 
 }
 .join__box_Btn:hover{
-    background-color: #e36085;
+    /* background-color: #e36085; */
+    transform: scale(1.2);
 }
+
 .join__box_right{
     display: flex;
     justify-content: center;
